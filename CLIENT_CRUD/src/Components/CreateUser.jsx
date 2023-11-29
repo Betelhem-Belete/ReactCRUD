@@ -12,7 +12,7 @@ const CreateUser = () => {
   const handleSubmit = (ev) => {
     ev.preventDefault();
 
-    axios.post('http://localhost:80/api/users/save', inputs);
+    axios.post('http://localhost:80/React+PHP/api/users/save', inputs);
     console.log(inputs);
   };
   return (
