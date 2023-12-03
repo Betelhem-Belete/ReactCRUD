@@ -1,14 +1,14 @@
 // import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import './App.css';
 import ListUser from './Components/ListUser';
 import CreateUser from './Components/CreateUser';
 import EditUser from './Components/EditUser';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>React CRUD operations using php api and mysql</h1>
+      <p>React CRUD operations using php api and mysql</p>
       <BrowserRouter>
         <nav>
           <ul>
